@@ -5,12 +5,36 @@
 <head>
 	<link rel="stylesheet" href="styles.css">
 </head>
+	<style>
+		table,tr,td,th{
+			border : 1px solid black;
+		}
+		tr,th{
+			text-align : left;
+		}
+/* 		td{
+			text-align : right;
+		} */
+		.r-1{
+			background : lightblue;
+			color : white;
+		}.r-2{
+			background : lightpink;
+			color : white;
+		}.r-3{
+			background : #b1a5;
+			color : black;
+		}.r-4{
+			background : #1e1e;
+			color : black;
+		}
+	</style>
 
 <body>
 	<!-- the entire body must be written by student -->
-	<table>
+	<table width=100%>
 		<thead>
-			<tr>
+			<tr class="r-1">
 				<th>Part</th>
 				<th>XS</th>
 				<th>S</th>
@@ -20,7 +44,30 @@
 			</tr>
 		</thead>
 		<tbody>
-			
+			<tr class="r-2">
+				<td>Waist</td>
+				<td>25</td>
+				<td>28</td>
+				<td>30</td>
+				<td>31</td>
+				<td>32</td>
+			</tr>
+			<tr class="r-3">
+				<td>Chest</td>
+				<td>34</td>
+				<td>34</td>
+				<td>38</td>
+				<td>40</td>
+				<td>41</td>
+			</tr>
+			<tr class="r-4">
+				<td>Sleeve</td>
+				<td>23</td>
+				<td>24</td>
+				<td>24</td>
+				<td>25</td>
+				<td>25</td>
+			</tr>
 		</tbody>
 	</table>
     <script type="text/javascript" src="./script.js">
